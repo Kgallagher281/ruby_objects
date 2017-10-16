@@ -37,12 +37,12 @@ class Elevator
 
  def go_up
    @@current_floor = @@current_floor + (@floor-1)
-   puts “WELCOME TO FLOOR NUMBER: #{@floor}”
+   puts "You are on floor" NUMBER: #{@floor}”
  end
 
  def go_down
    @@current_floor = @@current_floor - (@floor-1)
-   puts “WELCOME TO FLOOR NUMBER: #{@floor}”
+   puts "You are on floor" NUMBER: #{@floor}”
  end
 
  private
